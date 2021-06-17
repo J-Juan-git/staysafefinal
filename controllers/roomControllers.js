@@ -1,4 +1,5 @@
 import Room from '../models/room'
+// getAll Rooms
 const getAllRooms = async (req,res)=>{
     try{
         const room = await Room.find()
@@ -16,9 +17,7 @@ const getAllRooms = async (req,res)=>{
     }
     
 }
-
-// Creation of a new Room api/rooms
-
+// Create a new room
 const newRoom = async (req,res) =>{    
     try{
         const room = await Room.create(req.body)
@@ -32,11 +31,9 @@ const newRoom = async (req,res) =>{
             success: false,
             error: err.message
         })
-    }
-    
+    }    
 }
-
-// Get a room detail => api/rooms/:id
+// get a room detail
 const getOneRoom = async (req,res) =>{    
     try{
         const room = await Room.findById(req.query.id)
@@ -55,11 +52,60 @@ const getOneRoom = async (req,res) =>{
             success: false,
             error: err.message
         })
+    }    
+}
+// update the required room
+const updateRoom = async (req,res) =>{    
+    try{
+        let room = await Room.findById(req.query.id)
+        if(!room){
+            res.status(400).json({
+                error: 'Cant update a Room that dosent exist'
+            })
+        }
+        room = await Room.findByIdAndUpdate(req.query.id,req.body, {
+            new: true
+        })
+        res.status(200).json({
+            success: true,
+            room
+        })
+    }
+
+    catch(err){
+        res.status(400).json({
+            success: false,
+            error: err.message
+        })
+    }    
+}
+// delete the required room => api/rooms/[id]
+const deleteRoom = async (req,res) =>{    
+    try{
+        const room = await Room.findById(req.query.id)
+        if(!room){
+            res.status(400).json({
+                error: 'Cant delete a Room that dosent exist'
+            })
+        }
+        await room.remove();
+        res.status(200).json({
+            success: true,
+            message: 'Room is deleted successfully'
+        })
     }
     
+    catch(err){
+        res.status(400).json({
+            success: false,
+            error: err.message
+        })
+    }    
 }
 export {
     getAllRooms,
     newRoom,
-    getOneRoom
+    getOneRoom,
+    updateRoom,
+    deleteRoom
 }
