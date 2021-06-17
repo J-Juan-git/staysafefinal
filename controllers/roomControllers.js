@@ -1,8 +1,10 @@
 import Room from '../models/room'
+import Features from '../utils/features'
 // getAll Rooms
-const getAllRooms = async (req,res)=>{
+const getAllRooms = async (req,res)=>{    
     try{
-        const room = await Room.find()
+        const features = new Features(Room.find(),req.query).search().filter()
+        const room = await features.query
         res.status(200).json({
             success: true,
             count: room.length,
