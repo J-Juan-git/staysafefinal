@@ -102,4 +102,4 @@ const roomSchema = new mongoose.Schema({
             default: Date.now
         }
 })
-module.export =  mongoose.models.Room || mongoose.model('Room',roomSchema);
+module.exports =  mongoose.models.Room || mongoose.model('Room',roomSchema); 

@@ -1,4 +1,4 @@
-const Room = require('../models/room')
+const room = require('../models/room')
 const rooms = require('../data/rooms.json')
 const mongoose = require('mongoose');
 mongoose.connect("mongodb+srv://juan123:juan123@cluster0.ikunr.mongodb.net/staysafe?retryWrites=true&w=majority",{
@@ -9,13 +9,14 @@ mongoose.connect("mongodb+srv://juan123:juan123@cluster0.ikunr.mongodb.net/stays
 }).then(con => console.log("Connected to db"))
 
 const fillRooms = async ()=>{
-    try{
-    await Room.deleteMany();
-    console.log('Rooms are deleted')
-    await Room.insertMany(rooms)
-    console.log("All rooms are added!!");
-    }
-    catch(e){
-        console.log(e.message)
+    try {
+        await room.deleteMany();
+        console.log("Deleted all rooms");
+        await room.insertMany(rooms);
+        console.log("Added all rooms");
+        process.exit();
+    } catch (error) {
+        console.log(error.message)   
     }
 }
+fillRooms()
