@@ -1,11 +1,6 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import styles from '../styles/Home.module.css'
-
-export default function Home() {
+import Layout from '../components/Layout/Layout'
+export default function Index() {
   return (
-    <div className={styles.container}>
-      
-    </div>
+    <Layout />    
   )
 }
