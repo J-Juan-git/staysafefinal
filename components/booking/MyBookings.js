@@ -86,38 +86,38 @@ const MyBookings = () => {
 
         const data = {
             "documentTitle": "Booking INVOICE", //Defaults to INVOICE
-            "currency": "USD",
+            "currency": "INR",
             "taxNotation": "vat", //or gst
             "marginTop": 25,
             "marginRight": 25,
             "marginLeft": 25,
             "marginBottom": 25,
-            "logo": "https://res.cloudinary.com/bookit/image/upload/v1617904918/bookit/bookit_logo_cbgjzv.png",
+            "logo": "https://www.squire.com/wp-content/uploads/2020/08/Stay-safe-to-stay-open-logo.jpg",
             "sender": {
-                "company": "Book IT",
-                "address": "13th Street. 47 W 13th St",
-                "zip": "10001",
-                "city": "New York",
-                "country": "United States"
+                "company": "Stay Safe",
+                "address": "Hyderabad, Telangana, India",
+                "zip": "500068",
+                "city": "Hyderabad",
+                "country": "India"
             },
             "client": {
                 "company": `${booking.user.name}`,
                 "address": `${booking.user.email}`,
                 "zip": "",
                 "city": `Check In: ${new Date(booking.checkInDate).toLocaleString('en-US')}`,
-                "country": `Check In: ${new Date(booking.checkOutDate).toLocaleString('en-US')}`
+                "country": `Check Out: ${new Date(booking.checkOutDate).toLocaleString('en-US')}`
             },
             "invoiceNumber": `${booking._id}`,
             "invoiceDate": `${new Date(Date.now()).toLocaleString('en-US')}`,
             "products": [
                 {
-                    "quantity": `${booking.daysOfStay}`,
+                    "DaysOfStay": `${booking.daysOfStay} days`,
                     "description": `${booking.room.name}`,
-                    "tax": 0,
+                    "tax": (booking.room.pricePerNight*booking.daysOfStay)*0.025,
                     "price": booking.room.pricePerNight
                 }
             ],
-            "bottomNotice": "This is auto generated Invoice of your booking on Book IT."
+            "bottomNotice": "This is auto generated Invoice of your booking on StaySafe."
         };
 
         const result = await easyinvoice.createInvoice(data);
