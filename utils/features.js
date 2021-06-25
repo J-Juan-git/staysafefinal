@@ -15,13 +15,17 @@ class Features{
     }
     filter(){
         const q2 = {...this.queryString};
-        const del = ['location'];
+        const del = ['location','page'];
         console.log(q2)
         del.forEach(element => delete q2[element]);
         console.log(q2)
         this.query = this.query.find(q2);
         return this;
     }
-
+    pagination(resPerPage){
+        const currentPage = Number(this.queryString.page) || 1;
+        const skip = resPerPage * (currentPage) -1;
+        this.query = this.query.limit(resPerPage).skip(skip)
+    }
 }
 export default Features

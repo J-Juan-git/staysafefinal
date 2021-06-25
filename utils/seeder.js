@@ -1,23 +1,32 @@
-const room = require('../models/room')
-const rooms = require('../data/rooms.json')
+const Room = require('../models/room');
 const mongoose = require('mongoose');
-mongoose.connect("mongodb+srv://juan123:juan123@cluster0.ikunr.mongodb.net/staysafe?retryWrites=true&w=majority",{
+
+const rooms = require('../data/rooms')
+
+mongoose.connect('mongodb+srv://juan123:juan123@cluster0.ikunr.mongodb.net/staysafe?retryWrites=true&w=majority', {
     useNewUrlParser: true,
     useUnifiedTopology: true,
     useFindAndModify: false,
     useCreateIndex: true
-}).then(con => console.log("Connected to db seeder.js"))
-console.log("In here")
-const fillRooms = async ()=>{
+})
+
+const seedRooms = async () => {
     try {
-        await room.deleteMany();
-        console.log("Deleted all rooms");
-        await room.insertMany(rooms);
-        console.log("rooms");
-        process.exit();
+
+        await Room.deleteMany();
+        console.log('Rooms are deleted');
+
+        await Room.insertMany(rooms);
+        console.log('All Rooms are added.');
+
+        process.exit()
+
+
     } catch (error) {
-        console.log(error.message)
+        console.log(error.message);
         process.exit()
     }
 }
-fillRooms()
+
+seedRooms()
+

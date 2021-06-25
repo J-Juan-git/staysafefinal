@@ -2,11 +2,11 @@ import React from 'react'
 
 const Footer = () => {
     return (
-        <div>
+        <footer className="py-1">
             <p className="text-center mt-1">
-        StaySafe - 2021-2022, All Rights Reserved
+                Stay Safe- 2020-2021, All Rights Reserved
             </p>
-        </div>
+        </footer>
     )
 }
 
