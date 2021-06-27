@@ -18,7 +18,9 @@ module.exports = {
       SMTP_USER: "bd38d62462df2c",
       SMTP_PASSWORD: "5dfbf1e1ad040d",
       SMTP_FROM_EMAIL: "joshuajuan0010@gmail.com",
-      SMTP_FROM_NAME: "STAYSAFE",      
+      SMTP_FROM_NAME: "STAYSAFE",     
+      
+      NEXTAUTH_URL: 'https://staysafefinal.vercel.app'
   },
   images: {
       domains: ['cf.bstatic.com'],
