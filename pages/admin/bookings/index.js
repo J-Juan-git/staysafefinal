@@ -2,7 +2,7 @@ import React from 'react'
 import { getSession } from 'next-auth/client'
 
 import AllBookings from '../../../components/admin/AllBookings'
-import Layout from '../../../components/layout/Layout'
+import Layout from '../../../components/Layout/Layout'
 
 const AllBookingsPage = () => {
     return (
