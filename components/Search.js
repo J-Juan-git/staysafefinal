@@ -18,8 +18,6 @@ const Search = () => {
             router.push('/')
         }
     }
-
-
     return (
         <div className="container container-fluid">
             <div className="row wrapper">

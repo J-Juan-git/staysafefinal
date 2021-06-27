@@ -21,6 +21,6 @@ module.exports = {
       SMTP_FROM_NAME: "STAYSAFE",      
   },
   images: {
-      domains: ['res.cloudinary.com'],
+      domains: ['cf.bstatic.com'],
   },
 }

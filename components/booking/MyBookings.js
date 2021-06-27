@@ -86,7 +86,7 @@ const MyBookings = () => {
 
         const data = {
             "documentTitle": "Booking INVOICE", //Defaults to INVOICE
-            "currency": "INR",
+            "currency": "USD",
             "taxNotation": "vat", //or gst
             "marginTop": 25,
             "marginRight": 25,
@@ -105,15 +105,15 @@ const MyBookings = () => {
                 "address": `${booking.user.email}`,
                 "zip": "",
                 "city": `Check In: ${new Date(booking.checkInDate).toLocaleString('en-US')}`,
-                "country": `Check Out: ${new Date(booking.checkOutDate).toLocaleString('en-US')}`
+                "country": `Check In: ${new Date(booking.checkOutDate).toLocaleString('en-US')}`
             },
             "invoiceNumber": `${booking._id}`,
             "invoiceDate": `${new Date(Date.now()).toLocaleString('en-US')}`,
             "products": [
                 {
-                    "DaysOfStay": `${booking.daysOfStay} days`,
+                    "quantity": `${booking.daysOfStay}`,
                     "description": `${booking.room.name}`,
-                    "tax": (booking.room.pricePerNight*booking.daysOfStay)*0.025,
+                    "tax": 0,
                     "price": booking.room.pricePerNight
                 }
             ],
@@ -141,5 +141,4 @@ const MyBookings = () => {
         </div>
     )
 }
-
 export default MyBookings

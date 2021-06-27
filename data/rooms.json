@@ -1,171 +1,170 @@
 [
-    {
-      "name": "ROOM1",
-      "pricePerNight": 500,
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eleifend ligula fringilla velit consectetur, ac pretium diam ornare. Ut sed hendrerit tellus. Cras eget malesuada purus. Nam bibendum arcu in velit cursus, quis volutpat ligula ullamcorper. Etiam vestibulum sed sem vel imperdiet.",
-      "address": "Medchal, Hyderabad, Telangana",
-      "guestCapacity": 2,
-      "numOfBeds": 1,
-      "internet": true,
-      "breakfast": true,
-      "airConditioned": false,
-      "petsAllowed": false,
-      "roomCleaning": true,
-      "images": [
-        {
-          "public_id": "bookit/rooms/1_bzynlv",
-          "url": "https://res.cloudinary.com/bookit/image/upload/v1618590762/bookit/rooms/1_bzynlv.jpg"
-        },
-        {
-          "public_id": "bookit/rooms/2_s1u52n",
-          "url": "https://res.cloudinary.com/bookit/image/upload/v1618590761/bookit/rooms/2_s1u52n.jpg"
-        }
-      ],
-      "category": "King"
-    },
-    {
-      "name": "Room2",
-      "pricePerNight": 242,
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eleifend ligula fringilla velit consectetur, ac pretium diam ornare. Ut sed hendrerit tellus. Cras eget malesuada purus. Nam bibendum arcu in velit cursus, quis volutpat ligula ullamcorper. Etiam vestibulum sed sem vel imperdiet.",
-      "address": "Hyderabad, Telangana, India",
-      "guestCapacity": 2,
-      "numOfBeds": 2,
-      "internet": true,
-      "breakfast": false,
-      "airConditioned": true,
-      "petsAllowed": false,
-      "roomCleaning": true,
-      "images": [
-        {
-          "public_id": "bookit/rooms/3_quuli7.jpg",
-          "url": "https://res.cloudinary.com/bookit/image/upload/v1618590762/bookit/rooms/3_quuli7.jpg"
-        }
-      ],
-      "category": "Twins"
-    },
-    {
-      "name": "Room3",
-      "pricePerNight": 85,
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eleifend ligula fringilla velit consectetur, ac pretium diam ornare. Ut sed hendrerit tellus. Cras eget malesuada purus. Nam bibendum arcu in velit cursus, quis volutpat ligula ullamcorper. Etiam vestibulum sed sem vel imperdiet.",
-      "address": "Mumbai, India",
-      "guestCapacity": 3,
-      "numOfBeds": 2,
-      "internet": true,
-      "breakfast": true,
-      "airConditioned": true,
-      "petsAllowed": true,
-      "roomCleaning": false,
-      "images": [
-        {
-          "public_id": "bookit/rooms/4_sju0ql",
-          "url": "https://res.cloudinary.com/bookit/image/upload/v1618590765/bookit/rooms/4_sju0ql.jpg"
-        }
-      ],
-      "category": "King"
-    },
-    {
-      "name": "Room4",
-      "pricePerNight": 95,
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eleifend ligula fringilla velit consectetur, ac pretium diam ornare. Ut sed hendrerit tellus. Cras eget malesuada purus. Nam bibendum arcu in velit cursus, quis volutpat ligula ullamcorper. Etiam vestibulum sed sem vel imperdiet.",
-      "address": "Chennai, Hyderabad, India",
-      "guestCapacity": 6,
-      "numOfBeds": 3,
-      "internet": true,
-      "breakfast": true,
-      "airConditioned": true,
-      "petsAllowed": false,
-      "roomCleaning": true,
-      "images": [
-        {
-          "public_id": "bookit/rooms/5_jmydt6",
-          "url": "https://res.cloudinary.com/bookit/image/upload/v1618590762/bookit/rooms/5_jmydt6.jpg"
-        },
-        {
-          "public_id": "bookit/rooms/6_nwmr5f",
-          "url": "https://res.cloudinary.com/bookit/image/upload/v1618590764/bookit/rooms/6_nwmr5f.jpg"
-        }
-      ],
-      "category": "Single"
-    },
-    {
-      "name": "Shangri-La Hotel, Washington",
-      "pricePerNight": 105,
-      "description": "Our largest room with a queen bed and foldable sofa. Comfortably fits 2-3 adults, four adults maximum. Decorated with Irish-themed colors and arts. It has a private bathroom with a shower, equipped with smart TV, mini-fridge, desk, chairs. Enjoy City views at the sitting area by the window. Located on the 3rd floor with no elevator.",
-      "address": "4724  Mudlick Road, Yakima, WA, 98902",
-      "guestCapacity": 2,
-      "numOfBeds": 1,
-      "internet": true,
-      "breakfast": true,
-      "airConditioned": true,
-      "petsAllowed": false,
-      "roomCleaning": true,
-      "images": [
-        {
-          "public_id": "bookit/rooms/7_hshhzq",
-          "url": "https://res.cloudinary.com/bookit/image/upload/v1618590764/bookit/rooms/7_hshhzq.jpg"
-        }
-      ],
-      "category": "King"
-    },
-    {
-      "name": "Room5",
-      "pricePerNight": 36,
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eleifend ligula fringilla velit consectetur, ac pretium diam ornare. Ut sed hendrerit tellus. Cras eget malesuada purus. Nam bibendum arcu in velit cursus, quis volutpat ligula ullamcorper. Etiam vestibulum sed sem vel imperdiet.",
-      "address": "Hyderabad, Telangana, India",
-      "guestCapacity": 2,
-      "numOfBeds": 2,
-      "internet": true,
-      "breakfast": true,
-      "airConditioned": true,
-      "petsAllowed": false,
-      "roomCleaning": true,
-      "images": [
-        {
-          "public_id": "bookit/rooms/8_crn0xy",
-          "url": "https://res.cloudinary.com/bookit/image/upload/v1618590765/bookit/rooms/8_crn0xy.jpg"
-        }
-      ],
-      "category": "Twins"
-    },
-    {
-      "name": "Room 6",
-      "pricePerNight": 82,
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eleifend ligula fringilla velit consectetur, ac pretium diam ornare. Ut sed hendrerit tellus. Cras eget malesuada purus. Nam bibendum arcu in velit cursus, quis volutpat ligula ullamcorper. Etiam vestibulum sed sem vel imperdiet.",
-      "address": "",
-      "guestCapacity": 5,
-      "numOfBeds": 3,
-      "internet": true,
-      "breakfast": true,
-      "airConditioned": true,
-      "petsAllowed": false,
-      "roomCleaning": false,
-      "images": [
-        {
-          "public_id": "bookit/rooms/9_konrjf",
-          "url": "https://res.cloudinary.com/bookit/image/upload/v1618590849/bookit/rooms/9_konrjf.jpg"
-        }
-      ],
-      "category": "Single"
-    },
-    {
-      "name": "The Spa at Base Camp at Kerry Hotel",
-      "pricePerNight": 76,
-      "description": "Our largest room with a queen bed and foldable sofa. Comfortably fits 2-3 adults, four adults maximum. Decorated with Irish-themed colors and arts. It has a private bathroom with a shower, equipped with smart TV, mini-fridge, desk, chairs. Enjoy City views at the sitting area by the window. Located on the 3rd floor with no elevator.",
-      "address": "3118  Red Hawk Road, Garfield, MN, 56332",
-      "guestCapacity": 2,
-      "numOfBeds": 1,
-      "internet": true,
-      "breakfast": false,
-      "airConditioned": true,
-      "petsAllowed": false,
-      "roomCleaning": true,
-      "images": [
-        {
-          "public_id": "bookit/rooms/10_w8w8yi",
-          "url": "https://res.cloudinary.com/bookit/image/upload/v1618590840/bookit/rooms/10_w8w8yi.jpg"
-        }
-      ],
-      "category": "Single"
-    }
-  ]
-  
+  {
+    "name": "New Hotel Suhail",
+    "pricePerNight": 500,
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eleifend ligula fringilla velit consectetur, ac pretium diam ornare. Ut sed hendrerit tellus. Cras eget malesuada purus. Nam bibendum arcu in velit cursus, quis volutpat ligula ullamcorper. Etiam vestibulum sed sem vel imperdiet.",
+    "address": "Medchal, Hyderabad, Telangana",
+    "guestCapacity": 2,
+    "numOfBeds": 1,
+    "internet": true,
+    "breakfast": true,
+    "airConditioned": false,
+    "petsAllowed": false,
+    "roomCleaning": true,
+    "images": [
+      {
+        "public_id": "bookit/rooms/1_bzynlv",
+        "url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/280975134.jpg?k=6bc6c2c09fd973c4a9018f231409113201cb1d50d932cf077cbdf65c799004b2&o=&hp=1"
+      },
+      {
+        "public_id": "bookit/rooms/2_s1u52n",
+        "url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/248221418.jpg?k=9a96d219a198ac85cf9000f1af97a3841426cbdd9a66bffe394de8429b248164&o=&hp=1"
+      }
+    ],
+    "category": "King"
+  },
+  {
+    "name": "KyGo Hostels",
+    "pricePerNight": 242,
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eleifend ligula fringilla velit consectetur, ac pretium diam ornare. Ut sed hendrerit tellus. Cras eget malesuada purus. Nam bibendum arcu in velit cursus, quis volutpat ligula ullamcorper. Etiam vestibulum sed sem vel imperdiet.",
+    "address": "Hyderabad, Telangana, India",
+    "guestCapacity": 2,
+    "numOfBeds": 2,
+    "internet": true,
+    "breakfast": false,
+    "airConditioned": true,
+    "petsAllowed": false,
+    "roomCleaning": true,
+    "images": [
+      {
+        "public_id": "bookit/rooms/3_quuli7.jpg",
+        "url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/247844793.jpg?k=5f18ff2fffdb8f0657a6eeb584d1dc7f980a2db2ae3514dc1733f701739c2532&o=&hp=1"
+      }
+    ],
+    "category": "Twins"
+  },
+  {
+    "name": "Vazeer Residency Apt 4, 3BHK Fully Furnished",
+    "pricePerNight": 85,
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eleifend ligula fringilla velit consectetur, ac pretium diam ornare. Ut sed hendrerit tellus. Cras eget malesuada purus. Nam bibendum arcu in velit cursus, quis volutpat ligula ullamcorper. Etiam vestibulum sed sem vel imperdiet.",
+    "address": "Mumbai, India",
+    "guestCapacity": 3,
+    "numOfBeds": 2,
+    "internet": true,
+    "breakfast": true,
+    "airConditioned": true,
+    "petsAllowed": true,
+    "roomCleaning": false,
+    "images": [
+      {
+        "public_id": "bookit/rooms/4_sju0ql",
+        "url": "https://cf.bstatic.com/xdata/images/hotel/max1280x900/241457295.jpg?k=fd8f4606b3302def147467063725fa349f4ae378d5d732930b7c9261ad1733d2&o=&hp=1"
+      }
+    ],
+    "category": "King"
+  },
+  {
+    "name": "FabHotel Udipi Grand 3 stars",
+    "pricePerNight": 95,
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eleifend ligula fringilla velit consectetur, ac pretium diam ornare. Ut sed hendrerit tellus. Cras eget malesuada purus. Nam bibendum arcu in velit cursus, quis volutpat ligula ullamcorper. Etiam vestibulum sed sem vel imperdiet.",
+    "address": "Chennai, Hyderabad, India",
+    "guestCapacity": 6,
+    "numOfBeds": 3,
+    "internet": true,
+    "breakfast": true,
+    "airConditioned": true,
+    "petsAllowed": false,
+    "roomCleaning": true,
+    "images": [
+      {
+        "public_id": "bookit/rooms/5_jmydt6",
+        "url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/286379921.jpg?k=01e9e2e37d75cbf88a4636e456b35c639f962219211d2838fbeeaff31d8b04df&o=&hp=1"
+      },
+      {
+        "public_id": "bookit/rooms/6_nwmr5f",
+        "url": "https://cf.bstatic.com/xdata/images/hotel/max1280x900/286379939.jpg?k=0be77e7443a1400b44ba87669af1e7728932484462bc1b0a0c22b3ce2cd6bcb4&o=&hp=1"
+      }
+    ],
+    "category": "Single"
+  },
+  {
+    "name": "Shangri-La Hotel, Washington",
+    "pricePerNight": 105,
+    "description": "Our largest room with a queen bed and foldable sofa. Comfortably fits 2-3 adults, four adults maximum. Decorated with Irish-themed colors and arts. It has a private bathroom with a shower, equipped with smart TV, mini-fridge, desk, chairs. Enjoy City views at the sitting area by the window. Located on the 3rd floor with no elevator.",
+    "address": "4724  Mudlick Road, Yakima, WA, 98902",
+    "guestCapacity": 2,
+    "numOfBeds": 1,
+    "internet": true,
+    "breakfast": true,
+    "airConditioned": true,
+    "petsAllowed": false,
+    "roomCleaning": true,
+    "images": [
+      {
+        "public_id": "bookit/rooms/7_hshhzq",
+        "url": "https://cf.bstatic.com/xdata/images/hotel/max1280x900/144327541.jpg?k=fbfd056143b1e2a4fc8ac00e0b022d05ec26bdb0dc1743542ef6a432f4b4adc9&o=&hp=1"
+      }
+    ],
+    "category": "King"
+  },
+  {
+    "name": "Stanley's Suites",
+    "pricePerNight": 36,
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eleifend ligula fringilla velit consectetur, ac pretium diam ornare. Ut sed hendrerit tellus. Cras eget malesuada purus. Nam bibendum arcu in velit cursus, quis volutpat ligula ullamcorper. Etiam vestibulum sed sem vel imperdiet.",
+    "address": "Hyderabad, Telangana, India",
+    "guestCapacity": 2,
+    "numOfBeds": 2,
+    "internet": true,
+    "breakfast": true,
+    "airConditioned": true,
+    "petsAllowed": false,
+    "roomCleaning": true,
+    "images": [
+      {
+        "public_id": "bookit/rooms/8_crn0xy",
+        "url": "https://cf.bstatic.com/xdata/images/hotel/max1280x900/136222484.jpg?k=ca6c01e8a3c942b488370b71c2d97d42df261b80218d642d6bdf61d7b2c317e9&o=&hp=1"
+      }
+    ],
+    "category": "Twins"
+  },
+  {
+    "name": "Vazeer Residancy",
+    "pricePerNight": 82,
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eleifend ligula fringilla velit consectetur, ac pretium diam ornare. Ut sed hendrerit tellus. Cras eget malesuada purus. Nam bibendum arcu in velit cursus, quis volutpat ligula ullamcorper. Etiam vestibulum sed sem vel imperdiet.",
+    "address": "Hyderabad, Telangana, India",
+    "guestCapacity": 5,
+    "numOfBeds": 3,
+    "internet": true,
+    "breakfast": true,
+    "airConditioned": true,
+    "petsAllowed": false,
+    "roomCleaning": false,
+    "images": [
+      {
+        "public_id": "bookit/rooms/9_konrjf",
+        "url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/244212178.jpg?k=55909041ba5555bce3006383dfa02d650bcea3f9436889758abf579d6c256bde&o=&hp=1"
+      }
+    ],
+    "category": "Single"
+  },
+  {
+    "name": "The Spa at Base Camp at Kerry Hotel",
+    "pricePerNight": 76,
+    "description": "Our largest room with a queen bed and foldable sofa. Comfortably fits 2-3 adults, four adults maximum. Decorated with Irish-themed colors and arts. It has a private bathroom with a shower, equipped with smart TV, mini-fridge, desk, chairs. Enjoy City views at the sitting area by the window. Located on the 3rd floor with no elevator.",
+    "address": "3118  Red Hawk Road, Garfield, MN, 56332",
+    "guestCapacity": 2,
+    "numOfBeds": 1,
+    "internet": true,
+    "breakfast": false,
+    "airConditioned": true,
+    "petsAllowed": false,
+    "roomCleaning": true,
+    "images": [
+      {
+        "public_id": "bookit/rooms/10_w8w8yi",
+        "url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/244256022.jpg?k=039b6ea2059809603206e35aa336d9ef97ca8b793327277580ce19001ba3a492&o=&hp=1"
+      }
+    ],
+    "category": "Single"
+  }
+]

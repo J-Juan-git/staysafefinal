@@ -122,8 +122,9 @@ const forgotPassword = catchAsyncErrors(async (req, res, next) => {
 
     try {
         await sendEmail({
+            from: process.env.SMTP_FROM_EMAIL,
             email: user.email,
-            subject: 'BookIT Password Recovery',
+            subject: 'StaySafe Password Recovery',
             message
         })
 
