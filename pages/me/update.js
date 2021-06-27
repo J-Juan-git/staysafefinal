@@ -2,7 +2,7 @@ import React from 'react'
 import { getSession } from 'next-auth/client'
 
 import Profile from '../../components/user/Profile'
-import Layout from '../../components/layout/Layout'
+import Layout from '../../components/Layout/Layout'
 
 const UpdateProfilePage = () => {
     return (

@@ -1,7 +1,7 @@
 import React from 'react'
 
 import NewPassword from '../../../components/user/NewPassword'
-import Layout from '../../../components/layout/Layout'
+import Layout from '../../../components/Layout/Layout'
 
 const NewPasswordPage = () => {
     return (

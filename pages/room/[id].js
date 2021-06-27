@@ -1,5 +1,5 @@
 import RoomDetails from '../../components/room/RoomDetails'
-import Layout from '../../components/layout/Layout'
+import Layout from '../../components/Layout/Layout'
 
 import { getRoomDetails } from '../../redux/actions/roomActions'
 

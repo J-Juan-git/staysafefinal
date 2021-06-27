@@ -2,7 +2,7 @@ import React from 'react'
 import { getSession } from 'next-auth/client'
 
 import MyBookings from '../../components/booking/MyBookings'
-import Layout from '../../components/layout/Layout'
+import Layout from '../../components/Layout/Layout'
 
 import { myBookings } from '../../redux/actions/bookingActions'
 import { wrapper } from '../../redux/store'

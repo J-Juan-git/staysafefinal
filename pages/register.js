@@ -1,5 +1,5 @@
 import Register from '../components/auth/Register'
-import Layout from '../components/layout/Layout'
+import Layout from '../components/Layout/Layout'
 
 import { getSession } from 'next-auth/client'
 

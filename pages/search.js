@@ -1,5 +1,5 @@
 import Search from '../components/Search'
-import Layout from '../components/layout/Layout'
+import Layout from '../components/Layout/Layout'
 
 export default function SearchPage() {
     return (
