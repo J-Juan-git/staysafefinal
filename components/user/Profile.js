@@ -2,8 +2,8 @@ import React, { useState, useEffect } from 'react'
 import { useRouter } from 'next/router'
 
 import { toast } from 'react-toastify'
-import ButtonLoader from '../layout/ButtonLoader'
-import Loader from '../layout/Loader'
+import ButtonLoader from '../Layout/ButtonLoader'
+import Loader from '../Layout/Loader'
 
 import { useDispatch, useSelector } from 'react-redux';
 import { updateProfile, clearErrors } from '../../redux/actions/userActions'

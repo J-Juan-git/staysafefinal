@@ -3,7 +3,7 @@ import Link from 'next/link'
 import { useRouter } from 'next/router'
 
 import { MDBDataTable } from 'mdbreact'
-import Loader from '../layout/Loader'
+import Loader from '../Layout/Loader'
 
 import { useDispatch, useSelector } from 'react-redux'
 import { toast } from 'react-toastify';

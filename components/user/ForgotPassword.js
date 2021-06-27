@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react'
 
 import { toast } from 'react-toastify'
-import ButtonLoader from '../layout/ButtonLoader'
+import ButtonLoader from '../Layout/ButtonLoader'
 
 import { useDispatch, useSelector } from 'react-redux';
 import { forgotPassword, clearErrors } from '../../redux/actions/userActions'

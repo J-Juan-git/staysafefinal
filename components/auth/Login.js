@@ -4,7 +4,7 @@ import Link from 'next/link'
 import { signIn } from 'next-auth/client'
 
 import { toast } from 'react-toastify'
-import ButtonLoader from '../layout/ButtonLoader'
+import ButtonLoader from '../Layout/ButtonLoader'
 
 const Login = () => {
 
